@@ -1,3 +1,5 @@
+# For CUDA, use https://pytorch.org/get-started/locally/
 jupyterlab
 matplotlib
 numpy
+torch

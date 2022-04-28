@@ -1,8 +1,12 @@
 # Checkpoints
 .ipynb*/
+__pycache*
 
 # Downloads
 downloads/
 
 # Env
 env/
+
+# Hidden
+*.hidden
