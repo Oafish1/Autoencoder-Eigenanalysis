@@ -2,4 +2,5 @@
 jupyterlab
 matplotlib
 numpy
+sklearn
 torch
