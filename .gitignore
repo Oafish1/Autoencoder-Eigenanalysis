@@ -10,3 +10,6 @@ env/
 
 # Hidden
 *.hidden
+
+# Old Models
+old_models/
