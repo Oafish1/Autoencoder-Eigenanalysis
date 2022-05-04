@@ -16,3 +16,6 @@ models/old
 
 # Generated data
 *.obj
+
+# SCP
+import/
