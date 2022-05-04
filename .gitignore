@@ -12,4 +12,7 @@ env/
 *.hidden
 
 # Old Models
-old_models/
+models/old
+
+# Generated data
+*.obj

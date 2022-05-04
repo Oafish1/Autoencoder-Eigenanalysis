@@ -1,6 +1,9 @@
 # For CUDA, use https://pytorch.org/get-started/locally/
+# For jaxlib https://github.com/google/jax#installation
+git+https://github.com/google/jax-cfd
 jupyterlab
 matplotlib
 numpy
+seaborn
 sklearn
 torch

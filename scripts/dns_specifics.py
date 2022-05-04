@@ -82,8 +82,8 @@ def compute_diss(omega, Re, n=4):
     """
     Nx, Ny = omega.shape
     fft_field = FT.fft2(omega)
-    x_inds = range(Nx-Nx/3,Nx) + range(Nx/3+1)
-    y_inds = range(Ny-Ny/3,Ny) + range(Ny/3+1)
+    x_inds = list(range(int(Nx-Nx/3),Nx)) + list(range(int(Nx/3+1)))
+    y_inds = list(range(int(Ny-Ny/3),Ny)) + list(range(int(Ny/3+1)))
 
     filter_field = fft_field[x_inds]
     filter_field = filter_field[:,y_inds] / (Nx*Ny)
